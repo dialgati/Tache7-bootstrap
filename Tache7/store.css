@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fleur */
+.fleur{
+    background: url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350vh;
+  }
+  .div1 img{
+    width: 100%;
+  }
+.home .first-title{ 
+    color: #CB0D0D;
+}
+.home .grand-titre{ 
+    font-size: 70px;
+    color:#fff;
+}
+@media (max-width:576px){
+    .home .grand-titre{ 
+        font-size: 40px;
+    }
+}
+.home .cc-navbar{ 
+    background-color: #490909;
+    width: 100% ;
+}
+.cc-navbar a{ 
+    color: #fff;
+    font-weight: bold;
+}
+.cc-navbar .nav-item{ 
+    padding: 5px 30px;
+}
+.cc-navbar .navbar-toggler:focus{ 
+    box-shadow: none;
+}
+.home .card-1{ 
+    background-color: #F6E1C5;
+    margin-top: 50px ;
+    margin-bottom: 80px;
+    position: relative ;
+    left: 25% ;
+}
+.card-2,.card-3,.card-4,.card-5,.card-6{ 
+    background-color: #F6E1C5;
+}
+.border-like-bg{ 
+    border: 1px solid #F6E1C5 ;
+}
+@media (max-width:992px){ 
+    .home .card-1{
+        position: relative;
+        left: 0;
+    }
+}
+.home .card-1 .btn-visit-us{ 
+    background-color: #490909;
+}
+.card-text-top{ 
+    font-size: 25px;
+    font-weight:100;
+    letter-spacing: 15px;
+}
+@media (max-width:576px){ 
+    .card-text-top{ 
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+}
+.bg-color-our-promise{ 
+    background-color: rgba(135, 43, 38, 0.6) ;
+}
+.bg-footer{ 
+    background-color: #311919;
+}
+@media (min-width:992px){ 
+    .div2-du-card-2 .card-2{ 
+        position: relative;
+        top:-50%;
+    }
+    .products .card-3{ 
+        position: relative;
+        left: 150%;
+        top:70%;
+    }
+    .products .card-4{ 
+        position: relative;
+        bottom: 30%;
+        transform: translateY(-25%);
+    }
+    .products .card-5{ 
+        position: relative;
+        top:80%;
+    }
+    .products .card-6{ 
+        position: relative;
+        left:80%;
+        bottom: 50%;
+    }
+}
